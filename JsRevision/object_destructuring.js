@@ -8,4 +8,5 @@ const user ={
 const{id, is_verified} = user;
 
 console.log(id);
+
 console.log(is_verified);
