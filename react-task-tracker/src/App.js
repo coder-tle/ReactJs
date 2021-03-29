@@ -38,6 +38,10 @@ function App() {
 
     setTasks([...tasks, newTask]);
     console.log(tasks);
+
+    console.log(typeof tasks);
+
+    console.log(Array.isArray(tasks));
   };
 
   // Delete Task
